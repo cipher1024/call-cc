@@ -1,0 +1,8 @@
+[package]
+name = "call_cc"
+version = "0.1"
+lean_version = "3.4.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover/mathlib", rev = "257fd84fe98927ff4a5ffe044f68c4e9d235cc75"}
